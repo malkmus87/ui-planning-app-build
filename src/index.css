@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&display=swap');
+
+:root {
+  --color1: steelblue;
+}
+body {
+  width:100%;  
+  height:96vh;
+  background:white;
+  position:absolute;
+  top:0;left:0;
+  margin:0;padding:0;border:0;
+  /* padding-top:2vh; */
+  /* padding-bottom:2vh; */
+  font-family:'Cabin';
+  overflow:hidden;font-weight:600;
+
+}
+.Body{
+  background:white;width:100%;text-align:center;height:100vh;width:100%;margin-top:0;background:white;
+  background: linear-gradient(
+    to bottom, 
+    var(--color1) 0%,
+    var(--color1) 100vh,
+    #000000 20vh,
+    white 20vh
+  );
+  background:var(--color1);
+  opacity:1;
+}
+.Content{
+  width:100%;
+  height:100vh;
+}
+div,p,button,h1,h2,h3,h4,h5,input{
+  margin:0;vertical-align:top;border:0;font-family:'Cabin';border-radius:0;overflow:hidden;font-weight:600;
+}
+input{
+  border:0; outline:none;vertical-align:bottom;
+}
+h1{ padding:0 0 20px 0;}
+h2,h3,h4,h5{ padding:0 0 10px 0;font-weight:600;}
+div,p,button{
+  padding:0;
+}
+button{
+  cursor:pointer;outline:none;padding:5px;font-weight:550;
+}
+p{
+  font-size:12px;margin:0;padding:0;font-weight:550;
+}
+input[type="text"]{
+  font-weight:550;
+}
+.BodyInner{
+  max-width:1800px;display:inline-block;text-align:left;
+}
+.MainButton{
+  padding:10px;border-radius:5px;background:transparent;font-size:22px;
+  background:linear-gradient(gainsboro,whitesmoke 200%);  
+  margin:0 10px 10px 0;
+}
+.MainButton:hover{
+  opacity:0.7;
+  animation:OpacityChange 0.5s;
+}
+@keyframes OpacityChange{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0.7;
+  }
+}
+.MainButton:last-child{
+  margin-right:0;
+}
+.Row{
+  width:100%;
+}
+.StandardRow{
+  width:100%;overflow:hidden;text-align:left;
+}
+.StandardCenteredRow{
+  text-align:center;width:100%;
+}
+.Top{
+  width:100%;text-align:center;margin-bottom:20;opacity:0.95;
+  position:fixed;top:0;left:0;
+  height:25;padding:10px 0 10px 0;
+  background:white;
+}
+.Top h2{
+  display:inline-block;width:auto;margin:0;padding:0;
+}
+.LogoutButton{
+  position:fixed;
+  top:0;left:0;
+  z-index:5;
+}
+

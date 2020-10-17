@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Robert+Mono&display=swap');
+.TextArea{
+    border:0; font-size:17px;background:transparent;
+    line-height:25px;
+    /* border-bottom:2px grey solid; */
+    width:calc(100% - 65px);
+    padding:10px 5px 5px 10px;
+    margin:0;
+    outline:none;
+ 
+    resize:none;
+    background:linear-gradient(whitesmoke -100%,gainsboro);
+    background:linear-gradient(whitesmoke,gainsboro 200%);
+    min-height:25px;
+    vertical-align:bottom;overflow:hidden;
+    overflow:visible;font-family:'Cabin';
+
+    z-index:0;
+
+}
+.TextArea:hover{
+    box-shadow:0 0 1px 3px grey;
+    animation:TextAreaHover 0.2s;
+}
+@keyframes TextAreaHover{
+    0%{
+        box-shadow:0 0 0 0 transparent;
+    } 100%{
+        box-shadow:0 0 1px 3px grey;
+    }
+}
+.TextArea:focus{
+    animation:ColorInput 0.3s;
+    box-shadow:0 0 1px 3px steelblue;
+    /* background:linear-gradient(gainsboro -200%,whitesmoke); */
+    background:linear-gradient(whitesmoke,white);
+    color:royalblue;
+}
+@keyframes ColorInput{
+    0%{
+        color:black;
+        background:linear-gradient(whitesmoke,gainsboro 200%);
+    }
+    100%{
+        color:royalblue;
+        background:linear-gradient(whitesmoke,white);
+    }
+}

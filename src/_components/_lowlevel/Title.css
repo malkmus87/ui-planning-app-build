@@ -1,0 +1,20 @@
+.TitleDefault{
+    text-align:left;opacity:1;
+    width:100%;
+    border-top: 10px steelblue solid;
+    background:linear-gradient(to right,gainsboro,whitesmoke 200%);
+    padding:10px 0 5px 0;overflow:hidden;height:auto;
+}
+.TitleInner{
+    width:calc(90%);
+    padding:0 5% 0 5%;height:auto;
+}
+.TitleCentered{
+    text-align:center;
+    width:100%;
+}
+.TitleText{
+    width:calc(90%);
+    padding:0 5% 0 5%;
+    display:inline-block;
+}

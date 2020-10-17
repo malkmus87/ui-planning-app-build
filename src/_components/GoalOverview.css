@@ -1,0 +1,38 @@
+
+.GoalOverview{
+    width:90%;padding-bottom:80px;text-align:center;
+    padding-left:5%;padding-right:5%;
+}
+.GoalOverviewInner{
+    margin:0;text-align:left;display:inline-block;max-width:900px;width:calc(100%);overflow:hidden;
+    border-radius:0;background:white;padding-bottom:80px;
+}
+.GoalOverviewContent{
+    padding-top:40px;max-width:400px;display:inline-block;
+    padding-bottom:20px;
+    width:calc(90%);overflow:hidden;
+}
+
+.GoalOverviewInner .StandardRow{
+    width:100%;
+    overflow:hidden;
+}
+.YearTitle{
+    margin:0 5% 0 5%;width:90%;padding:0;margin-top:20px;
+    border-bottom:5px steelblue solid;
+}
+.YearTitle h2{
+    font-size:20px;font-weight:600;color:black;
+}
+.EndTitle{
+    text-align:left;opacity:1;
+    width:90%;
+    border-bottom: 10px steelblue solid;
+    padding:10px 0 5px 0;overflow:hidden;height:auto;margin:0 5% 0 5%;
+}
+.EndTitle h2{
+    vertical-align:bottom;margin:0;padding:0;
+}
+.Evaluation {
+    
+}

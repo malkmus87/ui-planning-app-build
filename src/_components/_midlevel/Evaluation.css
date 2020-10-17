@@ -1,0 +1,6 @@
+.Evaluation{
+    display:inline-block;vertical-align:bottom; overflow:hidden;text-align:left;   border-radius:0;
+}   
+.Evaluation p{
+    font-weight:600;font-size:18px;margin-bottom:5px;
+}

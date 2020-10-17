@@ -1,0 +1,40 @@
+.GoalOverview .AddButton{
+    padding:3px 0 3px 0;margin:0;overflow:visible;
+    color:darkgreen;background:transparent;
+    border-radius:4px;
+}
+.GoalOverview .AddButton:hover{
+    padding:3px 5px 3px 5px;color:black;
+    animation:AddButtonHover 0.5s;background:rgb(180, 251, 180);
+}
+@keyframes AddButtonHover{
+    0%{color:darkgreen;margin-top:0;padding:3px 0 3px 0;}
+    100%{color:black;background:rgb(180, 251, 180);padding:3px 5px 3px 5px;}
+}
+.AddButton .Icon{
+    display:inline-block;vertical-align:top;
+    padding:0;
+}
+.AddButton p{
+    margin-right:5px;font-weight:600;
+}
+.DeleteButton{
+    background:linear-gradient(#ED213A,#93291E);display:inline-block;
+}
+.DeleteButton p{
+    display:inline-block;margin-right:5px;
+}
+.DeleteIcon{
+    display:inline-block;cursor:pointer;
+}
+.SaveButton{
+    width:44px; padding:2px 4px 0 4px;border-radius:4px;cursor:pointer;display:inline-block;
+}
+.SaveButton p{
+    display:inline-block;margin-right:5px;font-size:10px;
+}
+.SaveIcon{
+    display:inline-block;padding-top:2px;vertical-align:top;cursor:pointer;
+}
+
+

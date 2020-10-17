@@ -1,0 +1,6 @@
+.ActionRow{
+    height:20px;vertical-align:top;padding:0 10px 0 10px;width:100%;text-align:left;
+}
+.ActionRow Button{
+    margin:0;height:100%;font-size:14px;padding-top:0;
+}

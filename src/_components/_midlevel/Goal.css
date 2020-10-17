@@ -1,0 +1,29 @@
+
+.Goal{
+    display:inline-block;overflow:visible;border-radius:4px;
+    padding:0 0 10px 0;font-family:'Concert One';
+}
+.Goal:last-child{
+    padding-bottom:0;
+}
+.InputRow{
+    width:calc(100%);display:block;padding:5px 0 5px 0;overflow:visible;text-align:left;
+}
+
+.CheckIconWrapper{
+    display:inline-block;cursor:pointer;text-align:center;
+    border-width:0;
+    box-shadow:1px 1px 2px 2px #555555;
+    color:darkgreen;
+    width:calc(40.5px);
+    height:40.5px;
+    margin:0 0 0px 1px;
+    border-radius:0 4px 4px 0;
+    z-index:10;
+    overflow:visible;
+    vertical-align:bottom;
+}
+.CheckIcon{
+    font-size:20; padding:7px 0 0 0;
+}
+
